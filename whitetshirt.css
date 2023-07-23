@@ -1,0 +1,173 @@
+:root {
+    --mount-meadow: #1bbc9c;
+    --white-smoke: #f0f0f0;
+    --night-rider: #343434;
+    --black: #191b17;
+    --transition: all 0.5s ease-in-out;
+
+
+}
+.merch{
+    font-family: 'Hind Siliguri', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 2rem;
+    padding: 0.8rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1bbc9c;
+}
+
+.body {
+    background-color: #343433;
+}
+.detail{
+    background: var(--white-smoke);
+    height: 20px;
+    width: 500px;
+    background-color: white;
+    
+}
+
+.detail-item{
+    
+    background: #fff;
+    text-align: center;
+    box-shadow: 0 1px 2px 0 rgba(90, 91, 95, 0.1);
+    -webkit-box-shadow: 0 1px 2px 0 rgba(90, 91, 95, 0.1);
+    -moz-box-shadow: 0 1px 2px 0 rgba(90, 91, 95, 0.1);
+    margin: 2rem 0;
+    padding: 3.5rem 1.5rem;
+    border-radius: 4px;
+    transition: var(--transition);
+}
+.detail-item:hover{
+    -webkit-box-shadow: 0 21px 19px -2px rgba(217, 217, 217, 1);
+    -moz-box-shadow: 0 21px 19px -2px rgba(217, 217, 217, 1);
+    box-shadow: 0 21px 19px -2px rgba(217, 217, 217, 1);
+    transform: translateY(-5px);
+}
+.detail-item span{
+    font-size: 2.5rem;
+}
+.detail-item h2{
+    font-size: 1.4rem;
+    opacity: 0.8;
+    font-weight: 300;
+}
+.line{
+    width: 45px;
+    margin: 1.2rem auto;
+    background: var(--mount-meadow);
+    height: 2.5px;
+}
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+h1, h2, h3, h4, h5, h6{
+    margin: 0.6rem 0;
+    line-height: 1.25;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.text{
+    margin: 0.6rem 0;
+    opacity: 0.8;
+}
+.text1{
+    margin: 0.6rem 0;
+    opacity: 0.8;
+    font-size: 20px;
+    color: rgba(231, 5, 5, 0.671);
+    font-family: 'Hind Siliguri', sans-serif;
+   font-weight: bold;
+    
+}
+.text2{
+    margin: 0.6rem 0;
+    opacity: 0.8;
+    font-size: 20px;
+    color: rgba(10, 9, 9, 0.959);
+    font-family: 'Hind Siliguri', sans-serif;
+   font-weight: bold;
+    
+}
+.detail .row{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+}
+
+.img {
+    background-image: url(./tshirt1.jpg) ;
+    height: 60px;
+    width: 60px;
+
+
+}
+
+.feature-left img{
+    width: 80%;
+    margin: auto;
+    image-rendering: crisp-edges;
+    border-style:hidden;
+    border-radius: 100px;
+    margin-left: 15px;
+}
+
+.footer{
+    text-align: center;
+    background: var(--black);
+    color: var(--white-smoke);
+    padding: 2rem 0;
+    height: 50vh;
+}
+.footer .text{
+    opacity: 0.8;
+}
+.footer-links{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.6rem;
+}
+.footer-links a{
+    color: var(--white-smoke);
+    opacity: 0.8;
+    width: 50px;
+    height: 50px;
+    margin: 0 0.2rem;
+    border-radius: 50%;
+    transition: var(--transition);
+}
+.footer-links a:hover{
+    background: var(--mount-meadow);
+}
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text4{
+    text-align: right;
+    margin-right: 200px;
+    font-size: 50px;
+    margin-top: 70px;
+
+}
+.text{
+    text-align: right;
+    margin-right: 200px;
+    font-size: 50px;
+    margin-top: 70px;
+
+}
